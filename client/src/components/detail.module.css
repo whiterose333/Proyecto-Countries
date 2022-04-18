@@ -1,0 +1,74 @@
+.detail {
+    background-image: url("../assets/cou.jpg");
+    height: 700px;
+    /* background-repeat: no-repeat; */
+    background-size:cover;  
+    position: absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(131, 206, 241);
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    justify-content: space-around; 
+    /* overflow:hidden */
+    /* border-radius: 1.5rem; */
+} 
+
+.activity {
+    
+    width: 50vw;
+    height: 90vh;
+    backdrop-filter: blur(16px);
+    background-color:rgba(0, 225, 255, 0.055);
+    border-radius: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(131, 206, 241);
+   /*  justify-content: center; */
+    display:flex;
+    padding: 10px 10px;
+    justify-content:space-around;
+    box-shadow: 1px 0px 22px rgba(110,210,244,.64);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
+    
+    
+}
+
+.paisAct {
+
+    width: 10vw;
+    height: 40vh;
+    backdrop-filter: blur(16px);
+    background-color:rgba(0, 0, 255, 0.068);
+    border-radius: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(131, 206, 241);
+    margin:4px;
+    padding:1px;
+    box-shadow: 1px 0px 22px rgba(110,210,244,.64);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
+}
+
+.btn {
+  
+    background-color:#4c5050;
+     border-radius:42px; 
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:14px;
+    font-weight:bold;
+    font-style:normal;
+    padding:5px 25px;
+    text-decoration:none;
+    cursor: pointer;
+    box-shadow: 1px 0px 22px rgba(110,210,244,.64);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}

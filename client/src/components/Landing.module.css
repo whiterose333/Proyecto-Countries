@@ -1,0 +1,37 @@
+.cou {
+    background-image: url("../assets/viajar.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgba(7, 172, 172, 0.87);
+    background-size:cover;
+    height: 600px;   
+    position: absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: cover;
+    padding: 40px 40px;
+    box-shadow: 1px 0px 22px rgba(110,210,244,.64);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
+}
+
+.btn {
+  
+    background-color:#0dcad8;
+     border-radius:42px; 
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:30px;
+    font-weight:bold;
+    font-style:normal;
+    padding:5px 25px;
+    text-decoration:none;
+    cursor: pointer;
+    box-shadow: 16px 16px 22px rgba(110,210,244,.64);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
